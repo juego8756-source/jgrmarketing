@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JGR Marketing — Automatización & Marketing Digital</title>
+  <meta name="description" content="JGR Marketing - Automatización de marketing, gestión de redes sociales, embudos de ventas y chatbots IA. Transformamos tu negocio con tecnología.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0a0a0f;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+
+    /* Hero */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: radial-gradient(ellipse at center, #1a1a2e 0%, #0a0a0f 70%);
+    }
+    .hero h1 {
+      font-size: clamp(2.5rem, 8vw, 5rem);
+      font-weight: 800;
+      background: linear-gradient(135deg, #00d4ff, #7b2ff7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 16px;
+    }
+    .hero p {
+      font-size: clamp(1rem, 2.5vw, 1.3rem);
+      color: #888;
+      max-width: 600px;
+      margin-bottom: 40px;
+    }
+    .hero .tag {
+      display: inline-block;
+      background: rgba(0, 212, 255, 0.1);
+      border: 1px solid rgba(0, 212, 255, 0.2);
+      padding: 8px 20px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      color: #00d4ff;
+      margin-bottom: 24px;
+    }
+
+    /* Servicios */
+    .servicios {
+      padding: 80px 0;
+    }
+    .servicios h2 {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 48px;
+      color: #fff;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+    .card {
+      background: #111118;
+      border: 1px solid #1e1e2a;
+      border-radius: 16px;
+      padding: 32px;
+      transition: border-color 0.3s, transform 0.3s;
+    }
+    .card:hover {
+      border-color: #00d4ff;
+      transform: translateY(-4px);
+    }
+    .card .icon {
+      font-size: 2rem;
+      margin-bottom: 16px;
+    }
+    .card h3 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+    .card p {
+      font-size: 0.9rem;
+      color: #888;
+    }
+
+    /* Clientes */
+    .clientes {
+      padding: 80px 0;
+      text-align: center;
+    }
+    .clientes h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: #fff;
+    }
+    .clientes p {
+      color: #888;
+      margin-bottom: 32px;
+    }
+    .cliente-card {
+      display: inline-block;
+      background: #111118;
+      border: 1px solid #1e1e2a;
+      border-radius: 12px;
+      padding: 24px 32px;
+      max-width: 400px;
+    }
+    .cliente-card h3 { color: #fff; margin-bottom: 8px; }
+    .cliente-card p { color: #888; font-size: 0.9rem; margin-bottom: 0; }
+
+    /* Contacto */
+    .contacto {
+      padding: 80px 0;
+      text-align: center;
+    }
+    .contacto h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: #fff;
+    }
+    .contacto p { color: #888; margin-bottom: 32px; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: linear-gradient(135deg, #00d4ff, #7b2ff7);
+      color: #fff;
+      padding: 16px 40px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: opacity 0.3s, transform 0.3s;
+    }
+    .btn:hover { opacity: 0.9; transform: scale(1.02); }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 40px 0;
+      color: #555;
+      font-size: 0.85rem;
+      border-top: 1px solid #1e1e2a;
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <div class="container">
+      <span class="tag">🚀 Automatización Inteligente</span>
+      <h1>JGR Marketing</h1>
+      <p>Transformamos tu negocio con automatización, marketing digital e inteligencia artificial. Más clientes, menos trabajo manual.</p>
+      <a href="https://wa.me/5491122128237" class="btn" target="_blank">
+        📲 Contactar por WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <section class="servicios" id="servicios">
+    <div class="container">
+      <h2>Servicios</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="icon">🤖</div>
+          <h3>Automatización n8n</h3>
+          <p>Workflows inteligentes que conectan redes, WhatsApp, CRM y más. Todo funciona solo.</p>
+        </div>
+        <div class="card">
+          <div class="icon">📱</div>
+          <h3>Redes Sociales</h3>
+          <p>Gestión y publicación automatizada en Facebook, Instagram y WhatsApp Business.</p>
+        </div>
+        <div class="card">
+          <div class="icon">📊</div>
+          <h3>Chatbots IA</h3>
+          <p>Atención al cliente 24/7 con asistentes inteligentes que responden y venden por vos.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🎯</div>
+          <h3>Publicidad Digital</h3>
+          <p>Campañas segmentadas en Facebook e Instagram que llegan exactamente a tu cliente ideal.</p>
+        </div>
+        <div class="card">
+          <div class="icon">📈</div>
+          <h3>Embudos de Ventas</h3>
+          <p>Automatización completa desde el lead hasta el cierre. Seguimiento sin perder oportunidades.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🔧</div>
+          <h3>Consultoría Técnica</h3>
+          <p>Te ayudamos a elegir e implementar las herramientas correctas para tu negocio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="clientes" id="clientes">
+    <div class="container">
+      <h2>Clientes</h2>
+      <p>Empresas que confían en JGR Marketing</p>
+      <div class="cliente-card">
+        <h3>🔧 Taller Eze</h3>
+        <p>Chapa y pintura en Ezeiza. Automatización completa de marketing multicanal.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contacto" id="contacto">
+    <div class="container">
+      <h2>¿Listo para automatizar?</h2>
+      <p>Hablemos y armamos una estrategia para tu negocio.</p>
+      <a href="https://wa.me/5491122128237" class="btn" target="_blank">
+        📲 WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 JGR Marketing — jgmaker-dev.site</p>
+    </div>
+  </footer>
+</body>
+</html>
